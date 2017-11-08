@@ -8,6 +8,7 @@ namespace WebApplication9.Models
 {
     public class OrderItem
     {
+        public int Id { get; set; }
         public Order Order { get; set; }
         public Item Item { get; set; }
         public decimal Price { get; set; }
